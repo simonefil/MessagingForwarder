@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Messaging Forwarder</string>
+    <string name="pref_phoneNumber_description">The phone number to forward messages from</string>
+    <string name="pref_phoneNumber">Phone number</string>
+    <string name="pref_targetURL_description">The URL to forward messages to</string>
+    <string name="pref_targetURL">Target URL</string>
+</resources>
