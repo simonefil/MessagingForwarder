@@ -7,7 +7,7 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class HttpPostThread implements Runnable {
+class HttpPostThread implements Runnable {
     private static final String TAG = HttpPostThread.class.getName();
 
     public HttpPostThread(URL url, String message) {
@@ -41,6 +41,6 @@ public class HttpPostThread implements Runnable {
             }
         }
     }
-    private URL url;
-    private String message;
+    private final URL url;
+    private final String message;
 }
