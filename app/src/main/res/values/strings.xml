@@ -4,4 +4,20 @@
     <string name="pref_phoneNumber">Phone number</string>
     <string name="pref_targetURL_description">The URL to forward messages to</string>
     <string name="pref_targetURL">Target URL</string>
+    <string name="pref_settings_title">Preferences</string>
+    <string name="pref_about">About</string>
+    <string name="about_title">License</string>
+    <string name="about_message">
+        <![CDATA[
+        "THE BEER-WARE LICENSE" (Revision 42):\n
+        <laudrup@stacktrace.dk> wrote this code.  As long as you retain this notice you
+        can do whatever you want with this stuff. If we meet some day, and you think
+        this stuff is worth it, you can buy me a beer in return.\n
+        Kasper Laudrup\n\n
+
+        Source code available at:\n
+        https://github.com/laudrup/MessagingForwarder\n\n
+        Icons made by Visual Pharm <https://icons8.com/> under "CC BY-ND 3.0" license.
+        ]]>
+    </string>
 </resources>
