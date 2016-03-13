@@ -4,4 +4,4 @@ if [ ! -n "$1" ]; then
     exit 1
 fi
 
-jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore keystore.jks ./app/build/outputs/apk/MessagingForwarder-1.0.apk MessagingForwarder
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore keystore.jks "$1" MessagingForwarder
