@@ -16,10 +16,6 @@ Usage
 -----
 You can either build the code yourself or download a signed APK from the releases link.
 
-The most important part is to remember that this app requires the "RECEIVE_SMS" permission. After
-installation enable that by going to Settings->Apps->MessagingForwarder->Permissions and make sure
-SMS is enabled. Otherwise this app will do nothing silently.
-
 Usage of this app should be fairly self-explanatory, but feel free to contact me if that is not the
 case.
 
