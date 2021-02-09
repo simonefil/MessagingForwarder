@@ -1,6 +1,0 @@
-android.applicationVariants.all { variant ->
-    variant.outputs.each { output ->
-        def apk_name = "${parent.name}-${variant.versionName}.apk"
-        output.outputFile = new File(output.outputFile.parent, apk_name)
-    }
-}
