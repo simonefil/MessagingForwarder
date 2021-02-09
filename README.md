@@ -1,3 +1,5 @@
+[![Build status](https://github.com/laudrup/MessagingForwarder/workflows/Build/badge.svg)](https://github.com/laudrup/MessagingForwarder/actions)
+
 Messaging Forwarder - A simple Android app for forwarding text messages to a web server
 =======================================================================================
 
