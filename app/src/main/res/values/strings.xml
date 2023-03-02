@@ -4,6 +4,8 @@
     <string name="pref_phoneNumber">Phone number</string>
     <string name="pref_targetURL_description">The URL to forward messages to</string>
     <string name="pref_targetURL">Target URL</string>
+    <string name="pref_smsContent">SMS text content</string>
+    <string name="pref_smsContent_description">Text contained in the SMS message</string>
     <string name="pref_settings_title">Preferences</string>
     <string name="pref_about">About</string>
     <string name="about_title">License</string>

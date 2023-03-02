@@ -5,11 +5,11 @@ android {
             storeFile file('keystore.jks')
         }
     }
-    compileSdkVersion 30
+    compileSdkVersion 33
     defaultConfig {
         applicationId "dk.stacktrace.messagingforwarder"
-        minSdkVersion 19
-        targetSdkVersion 30
+        minSdk 30
+        targetSdkVersion 33
         versionCode 1
         versionName "1.1"
     }
@@ -18,6 +18,10 @@ android {
             minifyEnabled false
             zipAlignEnabled true
         }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
     applicationVariants.all { variant ->
         variant.outputs.all {
